@@ -1,3 +1,4 @@
 .config/tmux/plugins
 .config/uv
-
+.zsh_plugins.zsh
+.config/go
