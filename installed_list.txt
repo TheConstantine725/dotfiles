@@ -1,0 +1,25 @@
+// MUST HAVE
+git
+
+// LANGUAGES
+go compiler
+rustup (rust packaged install & version manager) -> cargo, rustc etc.
+c (gcc & clang)
+c++ (g++)
+uv (python3 package manager)
+java (openjdk-21)
+nodejs (for neovim lsp)
+
+// PRODUCTIVITY
+neovim (where I write this list)
+tmux
+zsh (antidote plugin manager) (starship for the visuals)
+alacritty
+zellij (not in wsl2 though)
+zed -> through flatpak in Fedora-42
+zoxide (cd or change directory command replacement)
+fzf (rust based I think fuzzy finder)
+duckdb (for fast data wrangling)
+
+// CONTAINER RUNTIME
+podman or docker (I want to try containerd sometime)

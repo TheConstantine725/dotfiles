@@ -79,6 +79,9 @@ eval "$(uv generate-shell-completion zsh)"
 # ZED 
 alias zed="flatpak run dev.zed.Zed"
 
+#DuckDB
+alias duckdb="/home/kostas/.duckdb/cli/latest/duckdb"
+
 # Set up Zoxide
 eval "$(zoxide init zsh)"
 
