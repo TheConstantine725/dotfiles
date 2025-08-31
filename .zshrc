@@ -82,6 +82,10 @@ alias zed="flatpak run dev.zed.Zed"
 #DuckDB
 alias duckdb="/home/kostas/.duckdb/cli/latest/duckdb"
 
+# Source Python virtual Environment
+alias sven="source .venv/bin/activate"
+alias desven="deactivate"
+
 # Set up Zoxide
 eval "$(zoxide init zsh)"
 

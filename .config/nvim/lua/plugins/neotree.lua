@@ -13,7 +13,7 @@ return {
       enable_diagnostics = true,
       window = {
         position = "left",
-        width = 27,
+        width = 30,
       },
       filesystem = {
         filtered_items = {

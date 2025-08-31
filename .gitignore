@@ -2,3 +2,4 @@
 .config/uv
 .zsh_plugins.zsh
 .config/go
+.config/marimo
