@@ -83,7 +83,7 @@ alias zed="flatpak run dev.zed.Zed"
 alias duckdb="/home/kostas/.duckdb/cli/latest/duckdb"
 
 # Source Python virtual Environment
-alias sven="source .venv/bin/activate"
+alias sven="uv sync && source .venv/bin/activate"
 alias desven="deactivate"
 
 # Set up Zoxide
