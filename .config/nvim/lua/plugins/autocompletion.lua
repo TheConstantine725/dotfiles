@@ -4,6 +4,8 @@ return
     dependencies = {
       'hrsh7th/cmp-nvim-lsp',
       'L3MON4D3/LuaSnip',
+      'hrsh7th/cmp-path',
+      'saadparwaiz1/cmp_luasnip',
     },
     config = function()
       local cmp = require("cmp")
@@ -28,7 +30,9 @@ return
         }),
         sources = {
           { name = 'nvim_lsp' },
-        }
+          { name = 'luasnip'},
+        },
+        {name = 'path'},
       })
     end
   }
