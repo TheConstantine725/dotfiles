@@ -1,3 +1,7 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+local map = vim.keymap.set
+
+-- Manipulate how to create new tabs
+map("n","<leader>tn", ":tabnew<CR>", {desc = "Created New Tab"})
+map("n","<leader>tc", ":tabclose<CR>", {desc = "Closed Open Tab"})
+map("n","<M-l>", "gt",{desc = "Next Tab"})
+map("n","<M-h>", "gT",{desc = "Previous Tab"})
