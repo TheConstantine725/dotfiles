@@ -2,4 +2,6 @@
 .config/uv
 .zsh_plugins.zsh
 .config/go
-.config/marimo
+# .config/marimo
+# .config/btop
+.config/vscode-sqltools
