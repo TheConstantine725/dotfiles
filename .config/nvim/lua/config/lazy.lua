@@ -23,7 +23,7 @@ vim.opt.termguicolors = true
 
 require("config.indentation")
 require("config.keymaps")
-require("config.inlay_hints")
+-- require("config.inlay_hints")
 
 -- Setup lazy.nvim
 require("lazy").setup({
