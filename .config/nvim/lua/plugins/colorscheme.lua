@@ -1,25 +1,11 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {},
+  "navarasu/onedark.nvim",
+  priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
-    require("tokyonight").setup({
-      style = "storm",
-      transparent = false,
-      terminal_colors = true,
-      styles = {
-        comments = {italic = false},
-        keywords = {bold = true},
-        functions = {},
-        variables = {},
-        sidebars = "dark",
-        floats = "dark"
-      },
-      dim_inactives = true,
-    })
-
-
-    vim.cmd("colorscheme tokyonight")
+    require('onedark').setup {
+      style = 'deep'
+    }
+    -- Enable theme
+    require('onedark').load()
   end
 }
