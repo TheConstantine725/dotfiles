@@ -77,7 +77,7 @@ eval "$(uvx --generate-shell-completion zsh)"
 eval "$(uv generate-shell-completion zsh)"
 
 # ZED 
-alias zed="flatpak run dev.zed.Zed"
+# alias zed="flatpak run dev.zed.Zed"
 
 #DuckDB
 alias duckdb="/home/kostas/.duckdb/cli/latest/duckdb"
@@ -92,3 +92,6 @@ eval "$(zoxide init zsh)"
 # Change default Editor
 export EDITOR="/usr/bin/nvim"
 export VISUAL="$EDITOR"
+
+# Neovim Alias
+alias vim='/usr/sbin/nvim'
