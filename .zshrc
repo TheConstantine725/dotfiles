@@ -1,7 +1,7 @@
 # Lines configured by zsh-newuser-install
 # History
 HISTFILE=~/.histfile
-HISTSIZE=4000
+HISTSIZE=10000
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
 setopt appendhistory
@@ -31,7 +31,7 @@ compinit
 eval "$(starship init zsh)"
 
 # Stow custom alias -- unstow
-alias unstow='stow --delete' 
+alias unstow='stow --delete'
 
 #Antidote plugin manager
 # Set up Antidote Home
@@ -76,11 +76,11 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 eval "$(uvx --generate-shell-completion zsh)"
 eval "$(uv generate-shell-completion zsh)"
 
-# ZED 
+# ZED
 # alias zed="flatpak run dev.zed.Zed"
 
 #DuckDB
-alias duckdb="/home/kostas/.duckdb/cli/latest/duckdb"
+alias duckdb="$HOME/.duckdb/cli/latest/duckdb"
 
 # Source Python virtual Environment
 alias sven="uv sync && source .venv/bin/activate"
