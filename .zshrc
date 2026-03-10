@@ -81,6 +81,7 @@ eval "$(uv generate-shell-completion zsh)"
 
 #DuckDB
 alias duckdb="$HOME/.duckdb/cli/latest/duckdb"
+alias ducklts="$HOME/.duckdb/cli/lts/duckdb"
 
 # Source Python virtual Environment
 alias sven="uv sync && source .venv/bin/activate"
@@ -95,3 +96,7 @@ export VISUAL="$EDITOR"
 
 # Neovim Alias
 alias vim='/usr/sbin/nvim'
+
+# Atuin Initialization
+. "$HOME/.atuin/bin/env"
+eval "$(atuin init zsh)"
