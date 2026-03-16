@@ -83,9 +83,13 @@ eval "$(uv generate-shell-completion zsh)"
 alias duckdb="$HOME/.duckdb/cli/latest/duckdb"
 alias ducklts="$HOME/.duckdb/cli/lts/duckdb"
 
+# Sqlite Aliases
+alias sqlite="sqlite3"
+
 # Source Python virtual Environment
-alias sven="uv sync && source .venv/bin/activate"
-alias desven="deactivate"
+alias uva="uv sync && source .venv/bin/activate"
+# alias desven="deactivate"
+
 
 # Set up Zoxide
 eval "$(zoxide init zsh)"
