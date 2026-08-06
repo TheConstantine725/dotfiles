@@ -3,3 +3,4 @@ scripts
 .zsh_plugins.zsh
 .gitignore
 installed_list.txt
+installation_scripts.sh
