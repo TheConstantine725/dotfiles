@@ -102,5 +102,5 @@ export VISUAL="$EDITOR"
 alias vim='/usr/sbin/nvim'
 
 # Atuin Initialization
-. "$HOME/.atuin/bin/env"
+# . "$HOME/.atuin/bin/env"
 eval "$(atuin init zsh)"
