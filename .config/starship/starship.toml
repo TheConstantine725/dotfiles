@@ -1,10 +1,5 @@
 right_format = "$time"
 
-# [time]
-# format = "[$time]($style)"
-# time_format = "%Y-%m-%d %H:%M:%S"
-# style = "bold green"
-# disabled = false
 
 [aws]
 symbol = "  "
@@ -59,6 +54,8 @@ symbol = "  "
 
 [git_branch]
 symbol = " "
+# symbol = " "
+# format = "on [$symbol$branch(@$remote_name)]($style) "
 
 [git_commit]
 tag_symbol = '  '
