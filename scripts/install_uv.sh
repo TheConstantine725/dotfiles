@@ -10,7 +10,7 @@ fi
 
 if ! (which rustup)&>/dev/null; then
 	echo 'rust is not installed'
-	if [[ ! -x "$HOME/.cargo/bin/rustup"]]; then
+	if [[ ! -x "$HOME/.cargo/bin/rustup" ]]; then
 		echo "Fetching rustup with curl"
 		curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 	fi
